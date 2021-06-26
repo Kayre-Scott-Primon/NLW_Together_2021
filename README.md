@@ -86,5 +86,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
   [![Linkedin Badge](https://img.shields.io/badge/-Rodrigo%20Gonçalves%20Santana-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rodrigo-gon%C3%A7alves-santana/)](https://www.linkedin.com/in/rodrigo-gon%C3%A7alves-santana/) 
 </div>
 
-
-Link para o projeto base: (https://github.com/rodrigorgtic/gameplay-nlw-together#readme)
+##  Link para o projeto gitHub
+Link para o projeto base desenvolvido durante o curso pela a equipe da rocketseat: https://github.com/rodrigorgtic/gameplay-nlw-together#readme
