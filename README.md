@@ -1,5 +1,5 @@
 # NLW_Together_2021
-Curso intensivo de uma semana oferecido pela rocketseat a fim de subir de nivel na programação, este caso foi-se escolhido o foco em React Native
+Curso intensivo de uma semana oferecido pela rocketseat a fim de subir de nivel na programação, este caso foi-se escolhido o foco em React Native.
 O conteudo abaixo foi realizado pela equipe da Rocketseat
 
 <h1 align="center">
@@ -85,3 +85,6 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
   [![Instagram Badge](https://img.shields.io/badge/-rodrigo.goncalves.s-6633cc?style=flat-square&labelColor=6633cc&logo=instagram&logoColor=white&link=https://www.instagram.com/rodrigo.goncalves.s/)](https://www.instagram.com/rodrigo.goncalves.s/) 
   [![Linkedin Badge](https://img.shields.io/badge/-Rodrigo%20Gonçalves%20Santana-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rodrigo-gon%C3%A7alves-santana/)](https://www.linkedin.com/in/rodrigo-gon%C3%A7alves-santana/) 
 </div>
+
+
+Link para o projeto base: (https://github.com/rodrigorgtic/gameplay-nlw-together#readme)
