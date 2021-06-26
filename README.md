@@ -3,13 +3,11 @@ Curso intensivo de uma semana oferecido pela rocketseat a fim de subir de nivel 
 O conteudo abaixo foi realizado pela equipe da Rocketseat
 
 <h1 align="center">
-  <img alt="GamePlay" height="80" title="Plant Manager" src=".github/logo.png" />
+  <img src="https://github.com/rodrigorgtic/gameplay-nlw-together/blob/master/.github/logo.png" alt="NLW 06" />
 </h1>
 
 <p align="center">
   <img alt="License" src="https://github.com/rodrigorgtic/gameplay-nlw-together/blob/master/.github/cover.png?style=flat">
-
- <img src="https://github.com/rodrigorgtic/gameplay-nlw-together/blob/master/.github/logo.png" alt="NLW 06" />
 </p>
 
 
