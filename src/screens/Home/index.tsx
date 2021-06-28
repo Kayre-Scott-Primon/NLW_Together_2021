@@ -39,42 +39,6 @@ export function Home(){
                category: '1',
                date: '22/06 às 20:40h',
                description: 'É hoje que vamos chegar ao challenger sem perder uma partida da mdv10vvv'
-          },
-          {
-               id: '3',
-               guild: {
-                    id: '1',
-                    name: 'lendarios',
-                    icon: null,
-                    owner: true
-               },
-               category: '1',
-               date: '22/06 às 20:40h',
-               description: 'É hoje que vamos chegar ao challenger sem perder uma partida da mdv10vvv'
-          },
-          {
-               id: '4',
-               guild: {
-                    id: '1',
-                    name: 'lendarios',
-                    icon: null,
-                    owner: true
-               },
-               category: '1',
-               date: '22/06 às 20:40h',
-               description: 'É hoje que vamos chegar ao challenger sem perder uma partida da mdv10vvv'
-          },
-          {
-               id: '5',
-               guild: {
-                    id: '1',
-                    name: 'lendarios',
-                    icon: null,
-                    owner: true
-               },
-               category: '1',
-               date: '22/06 às 20:40h',
-               description: 'É hoje que vamos chegar ao challenger sem perder uma partida da mdv10vvv'
           }
      ]
 
@@ -111,6 +75,7 @@ export function Home(){
                          style={styles.matches}
                          showsVerticalScrollIndicator={false}
                          ItemSeparatorComponent={() => <ListDivider />}
+                         contentContainerStyle={{ paddingBottom: 69}}
                     />
                </View>
           </Background>

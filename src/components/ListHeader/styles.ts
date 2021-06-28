@@ -7,7 +7,8 @@ export const styles = StyleSheet.create({
           flexDirection: 'row',
           width: '100%',
           justifyContent: 'space-between',
-          paddingHorizontal: 24
+          paddingHorizontal: 24,
+          marginTop: 27
      },
      title: {
           fontFamily: theme.fonts.title700,
