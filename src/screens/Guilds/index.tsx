@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useState } from 'react';
 import { View, FlatList } from 'react-native';
 import { Guild, GuildProps } from '../../components/Guild';
 import { ListDivider } from '../../components/ListDivider';
+import { Load } from '../../components/Load';
+import { api } from '../../services/api';
 
 import { styles } from './styles';
 
@@ -10,34 +13,24 @@ type Props = {
 }
 
 export function Guilds({handleGuildSelected}: Props){
-     const guilds = [
-          {
-               id: '1',
-               name: 'Lendários',
-               icon: 'image.png',
-               owner: true
-          },
-          {
-               id: '2',
-               name: 'AgoraVai',
-               icon: 'image.png',
-               owner: false
-          },
-          {
-               id: '3',
-               name: 'Lendários',
-               icon: 'image.png',
-               owner: true
-          },
-          {
-               id: '4',
-               name: 'AgoraVai',
-               icon: 'image.png',
-               owner: false
-          }
-     ]
+     const [guilds, setGuilds] = useState<GuildProps[]>([])
+     const [loading, setLoading] = useState(true)
+
+     async function fetchGuilds(){
+          const response = await api.get('/users/@me/guilds')
+          setGuilds(response.data)
+          setLoading(false)
+     }
+
+     useEffect(() => {
+          fetchGuilds()
+     },[])
+
   return (
      <View style={styles.container}>
+          {loading 
+          ? <Load/> 
+          :
           <FlatList
                data={guilds}
                keyExtractor={item => item.id}
@@ -50,6 +43,7 @@ export function Guilds({handleGuildSelected}: Props){
                contentContainerStyle={{ paddingBottom: 68, paddingTop: 104 }}
                ListHeaderComponent={() => <ListDivider isCenter/>}
           />
+          }
      </View>
   );
 }

@@ -20,7 +20,7 @@ export function Signin(){
     try{
       await signIn()
     }catch(error){
-      Alert.alert(error)
+      Alert.alert(error+'')
     }
   }
 
